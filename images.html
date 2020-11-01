@@ -1,82 +1,72 @@
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <!--The title goes below so that your browser can show the header-->
+    <title>Images</title>
+    <!--I link a CSS stylesheet here. But for temporary purposes, I have made the styles local on this page for the time being. -->
     <link rel="stylesheet" href="images/seltzer.css">
+    <!-- I like the font styles google had to offer, so I tell the website to pull the font from Google and download it to the person visiting the website. -->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans">
-    <style>
 
-
-html, body {
-		font-family: 'Open Sans', sans-serif;
-    color: white;
-    font-size: 20px;
-    line-height: 150%; 
-    background: #e18cd8;
-  	text-shadow: 1px 1px 10px rgba(0,0,0,0.6);
-}
-      
-.content {
-
-  	width: 80%;
-  	min-width: 700px;
-    margin: 0 10% 0 10%;
-    text-shadow: 1px 1px 10px rgba(0,0,0,0.4);
-  	color: white;
-}
-
-h1 {
-    font-size: 42px;
-    font-weight: thin;
-    line-height: 130%;
-  	color: white;
-  text-shadow: 1px 1px 10px rgba(0,0,0,0.8);
-}
-.menu {
-
-}
-
-      
-a:link,a:visited  {
-  color: white;
-  text-decoration: underline;
-}
-a:active{
-  color: white;
-  text-decoration: underline;        
-}
-a:hover {
-  color: white;
-  text-decoration: 	none;
-}      
-      
-    </style>
   </head>
-  <body>
+  <body> <!-- I defined the first part of the page with the class name of "content" -->
     <div class="content">
       <table align="center">
         <tbody>
           <tr>
+            <!-- My header image is below -->
             <td colspan="5" align="center"><img src="images/bubbles_header_small.png"
 
-                height="50%" width="50%" align="middle"></td>
+                align="middle" height="50%" width="50%"></td>
           </tr>
           <tr>
+            <!-- My navigation links are below, using table elements, table rows, and table columns -->
             <td><a href="index.html">Welcome</a></td>
-            <td><a href="images.html">Why Seltzer</a></td>
-            <td><a href="userdesigned.html">Why I Fell in Love with Seltzer</a></td>
-            <td><a href="links.html">Reasons to Drink Seltzer</a></td>
-            <td><a href="multimedia.html">The Bubbly Goodness in a Sip</a></td>
+            <td><a href="images.html">Images</a></td>
+            <td><a href="userdesigned.html">Why Seltzer</a></td>
+            <td><a href="links.html">Links</a></td>
+            <td><a href="multimedia.html">Multimedia</a></td>
           </tr>
         </tbody>
       </table>
-      <h1>Bubbly Images</h1>
-      <p>Let's get you hooked on drinking some good tasting fizzy water.See what
-        you're missing.
-      <img src="https://www.drinkaha.com/content/dam/aha/products/PLP_strawberry-cucumber-rev.png" align="left"><br>One of the Coca-Cola options for carbonated waters.  <br>   
+      <h1>BUBBLY IMAGES</h1>
+      <p>I've dived deep on the interwebs to find images of various types of flavored carbonated water. Fizzy water comes in different looks and different shapes.</p>
+      <div class="row">
+        <div class="column"> <img src="images/cranberry.png"> <img src="images/polar_seltzer_small.png">
+          <img src="images/dasani_berry.png"> <img src="images/aqua_cherry.png"> <img src="images/lacroix_green.png"> </div>
+        <div class="column"> <img src="images/aqua_orange.png"><img src="images/dasani_lime.png">
+          <img src="images/lacroix_lime.png"> <img src="images/dasani_lemon.png"> <img src="images/dasani_lemonade.png">
+          <img src="images/aqua_lime.png"> <img src="images/pierre.png"> <img src="images/dasani_pineapple.png"> </div>
+      </div>
+      <h1>Benefits of Drinking Carbonated Water</h1>
+      <p>Lots of benefits to drinking this bubbly water. A few reasons are:<br>
       </p>
-      <P>
-        <img src="https://4.bp.blogspot.com/-SqUHRbxRyXI/V-A9B1Dg3SI/AAAAAAAAfgQ/RT3YnywgNPco6kocJf3p0pfpQJVHHVJCgCLcB/s1600/IMG_9984.JPG" height="35%" width="25%"><br>Kroger's offer of seltzer water.
-      </P>
+      <!-- I use an unordered list below UL, and each item in the list using the LI list item tag. I could use CSS to style it more if liked -->
+      <ul>
+        <li>Zero Calories</li>
+        <li>Flavorful</li>
+        <li>Quenches Thirst</li>
+        <li>Can help bring a sparkle to a punch or homemade wine</li>
+        <li>Can be used with baking soda to take a stain out of some fabrics</li>
+        <li>Compliments a meal by simulating a soft drink</li>
+        <li>Helps you burp</li>
+      </ul>
+      <p></p>
+      <h1>WHAT QUANTITATIVE THINGS CAN SELTZER WATER DO FOR ME?</h1>
+      <p>Lots of benefits to drinking this bubbly water. A few reasons are:<br>
+      </p>
+      <ul>
+        <li>Helps reduce weight when substituting it for a soda</li>
+        <li>Reduces sugar intake due to sugar-free ingredients</li>
+        <li>Helps save money. On average, carbonated water is less expenensive
+          than pops, especially if you buy the store brand</li>
+        <li>Can be used with baking soda to take a stain out of some fabrics</li>
+        <li>Compliments a meal by simulating a soft drink</li>
+        <li>Helps you burp</li>
+      </ul>
+      <p></p>
+      <table>
+      </table>
     </div>
   </body>
 </html>
